@@ -4,7 +4,5 @@ from menu import fun_displayMenu
 
 fun_displayMenu()
 
-print("Thanks for use our program!")
-print("Program develop by:")
-print("Nestor Rios")
-print("Miguel Rodriguez")
+print("Thanks for using our program!")
+print("Program developed by: Nestor Rios and Miguel Rodriguez")
