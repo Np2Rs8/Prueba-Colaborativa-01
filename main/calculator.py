@@ -8,9 +8,13 @@ def fun_add(num1, num2):
 def fun_subtraction(num1, num2):
     return num1 - num2
 
-num1 = 2
-num2 = 3
+# Function to multiply
+def fun_multiply(num1, num2):
+    return num1*num2
 
-print(fun_add(num1, num2))
-
-print(fun_subtraction(num1, num2))
+#Function to divide
+def fun_divide(num1, num2):
+    if num2 ==0:
+        return print("Error! Division by zero not allowed") # Error message when division is attempted with
+    else:
+        return  float("{0:.3f}".format((float)(num1/num2)))
